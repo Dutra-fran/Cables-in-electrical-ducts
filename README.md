@@ -1,6 +1,6 @@
 # Cables in electrical ducts
 
-Programador: Francisco Robson de O. Dutra Filho
+Criador: Francisco Robson de O. Dutra Filho
 <br>Instagram: @robsondutra_
 <br>
 
