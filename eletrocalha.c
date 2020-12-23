@@ -4,15 +4,14 @@ Créditos: Robson Dutra
 */
 
 #include <stdio.h>
-int main(){
+int main(void){
     float AreaEletrocalha, Largura, Altura; // Variáveis relacionado a eletrocalha. Tais como: a largura e a altura, ambos em milimetros, e a área da eletrocalha que resulta do produto da largura e a altura.
-    float AreaCabo, pi, Raio, DiametroNominal; // Variáveis relacionadas ao cálculo da área do cabo.
+    float AreaCabo, Raio, DiametroNominal; // Variáveis relacionadas ao cálculo da área do cabo.
+    const float pi = 3.1415; // Valor do pi para utilizar no cálculo da área do cabo.
     float TaxaX; // Variável que vai receber o valor da Taxa de Ocupação dos cabos na eletrocalha. Tem que estar entre 40% e 60%.
     int cont=1000000; // Variável que vai servir de contagem para o loop while terminar o processo de contagem das possibilidades existentes de colocar tantos cabos na eletrocalha.
-    int QuantCabos=0; // Variável que vai receber o valor da quantidade de cabos.
-    int opcoes=0; // Variável para mostrar quantas opções existem para satisfazer a condição de ocupação de cabos na eletrocalha.
-
-    pi = 3.1415; // Valor do pi
+    unsigned int QuantCabos=0; // Variável que vai receber o valor da quantidade de cabos.
+    unsigned int opcoes=0; // Variável para mostrar quantas opções existem para satisfazer a condição de ocupação de cabos na eletrocalha.
 
     printf("\nBem vindo ao programa que vai calcular o tanto de cabos que podem passar na sua eletrocalha!");
 
